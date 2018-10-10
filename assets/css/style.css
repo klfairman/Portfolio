@@ -1,9 +1,9 @@
 body {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Antic', sans-serif;
   font-size: 18px;
   line-height: 34px;
   color: #777;
-  background-image: url("full-bloom.png");
+  background-image: url("whiteBackground.jpeg");
 }
 
 * {
@@ -16,10 +16,9 @@ body {
 .container {
   width: 100%;
   max-width: 960px;
-  margin: 0 auto;
   max-height: 500px;
-  float: center;
-  clear: both;
+  margin-left: 20%;
+  margin-right: 20%
 }
 
 #bio-image {
@@ -44,12 +43,13 @@ p {
     text-align: justify;
     text-indent: 35px;
     position: relative;
+    font-family: 'Antic', sans-serif;
 }
 
 h1,
 h2,
 h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Antic', sans-serif;
   font-weight: 700;
   color: black;
 }
@@ -58,8 +58,8 @@ h1 {
   padding-bottom: 20px;
   font-size: 25px;
   line-height: 49px;
-  border-bottom: 3px solid #ddd;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  border-bottom: 3px solid purple;
+  font-family: 'Antic', sans-serif;
   
 }
 
@@ -76,22 +76,22 @@ h3 {
   width: 100%;
   margin: 0 0 30px;
   overflow: auto;
-  color: #fff;
-  background: #fff;
-  border-bottom: 2px solid black;
+  color:  black;;
+  background-color: #ddd;
+  border-bottom: double purple 3px;
+  font-family: 'Antic', sans-serif;
 }
 
 #logo {
-  float: left;
   width: 300px;
   height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Antic', sans-serif;
   font-size: 25px;
   font-weight: 700;
   line-height: 90px;
-  color: #fff;
-  text-align: center;;
-  background: #4aaaa5;
+  color:  darkgrey;
+  text-align: center;
+
   
 }
 
@@ -109,6 +109,7 @@ nav a {
   color: #999;
   text-decoration: none;
   border-left: 1px solid #efefef;
+  font-family: 'Antic', sans-serif;
 }
 
 nav a:first-child {
@@ -122,23 +123,24 @@ footer {
   clear: both;
   font-size: 12px;
   color: #fff;
-  color: #ccc;
+  color: darkgrey;
+  background-color: #ddd;
+  border-top: double purple 3px;
   text-align: center;
-  background: #666;
-  border-top: 8px solid #4aaaa5;
   height: 50px;
   width: 100%;
   position: fixed;
   bottom: 0;
   left: 0;
-
+  font-family: 'Antic', sans-serif;
 }
 
 h3, h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
-  border-bottom: 2px solid #eee;
+  border-bottom: 2px solid purple;
+  font-family: 'Antic', sans-serif;
 }
 
 /* main */
@@ -149,13 +151,12 @@ h3, h2 {
   }
 
 .main-section {
-  float: left;
-  width: 100%;
-  max-width: 980px;
+  max-width: 80%px;
+  max-height: 70%;
   padding: 30px;
-  margin: 0 0 40px;
-  background: #fff;
-  border: 2px solid #666666;
+  border: dashed purple 3px;
+  background-color: whitesmoke;
+  font-family: 'Antic', sans-serif;
   
 }
 
@@ -163,10 +164,8 @@ h3, h2 {
 
 .work {
   position: relative;
-  float: left;
   width: 280px;
-  margin: 25px 0 25px;
-  overflow: auto;
+  margin: 50px 0 50px;
 }
 
 .flex-container {
@@ -185,17 +184,17 @@ h3, h2 {
 }
 
 .work h3 {
-  position: absolute;
+  position: relative;
   bottom: 20px;
   width: 100%;
   padding: 15px;
   margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
-  color: #fff;
+  color:black;
   text-align: center;
-  background: #4aaaa5;
   border-bottom: 0;
+  font-family: 'Antic', sans-serif;
 }
 
 
@@ -233,8 +232,7 @@ textarea {
 input[type=submit] {
   padding: 10px 30px;
   font-size: 18px;
-  color: #fff;
+  font: grey;
   cursor: pointer;
-  background: #4aaaa5;
-  border: 0 none;
+  border: solid purple 1px;
 }
